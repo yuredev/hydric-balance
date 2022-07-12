@@ -1,0 +1,16 @@
+{
+  "name": "hydric-balance",
+  "version": "1.0.0",
+  "description": "A bot that fetchs meterological data from BDGE-INMET to perform an algorithm of hydric balance ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/hydric-balance.js"
+  },
+  "author": "Yure Matias de Oliveira and Euclides Neto",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "type": "module"
+}
